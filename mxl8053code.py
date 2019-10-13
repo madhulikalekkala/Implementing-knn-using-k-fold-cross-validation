@@ -90,7 +90,7 @@ def polynomialKernel(data,instance1, instance2, length):
 def radialDistance(data,instance1, instance2, length):
 	distance = 0
 	xMy=0.0
-	sigma=0.97
+	sigma=0.90
 	if (data=='iris.data'):
 		for x in range(length):
 			xMy = xMy + abs(instance1[x] - instance2[x])
